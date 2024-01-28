@@ -1,0 +1,40 @@
+.pointer{
+    cursor: pointer;
+}
+
+
+.lister{
+    display: none;
+}
+
+.bg-white-trans{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 150%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: 1s;
+}
+
+.img-hover:hover > .bg-white-trans{
+    top: 0;
+}
+
+
+.bg-elements{
+
+    background-image: url(../img/alexandru-stavrica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    
+    
+
+}
+
+.widthStyle{
+    width: 40%;
+    height: 40%;
+}
