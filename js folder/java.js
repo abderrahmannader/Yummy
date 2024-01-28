@@ -345,6 +345,7 @@ async function categoryDesc(id){
 $(".Categories").click(function(){
     $(".search-main").css('display','none')
     $(".contact-us").css('display','none')
+    $(".desc").css('display','none')
     $(".main-interface2").css('display','block')
     category()
     $(".nav-bar-main").animate({left: -$(".nav-tab-main").outerWidth()},1500)
@@ -514,6 +515,7 @@ async function IngredientsDesc(name){
 $(".Ingredients").click(function(){
     $(".search-main").css('display','none')
     $(".main-interface2").css('display','block')
+    $(".desc").css('display','none')
     $(".contact-us").css('display','none')
     Ingredients()
     $(".nav-bar-main").animate({left: -$(".nav-tab-main").outerWidth()},1500)
@@ -521,7 +523,7 @@ $(".Ingredients").click(function(){
 })
 
 $(".Contact").click(function(){
-    
+    $(".desc").css('display','none')
     contactUs()
     $(".nav-bar-main").animate({left: -$(".nav-tab-main").outerWidth()},1500)
     $(".exit").html(`<i class="fa-solid fa-bars fs-1"></i>`)
